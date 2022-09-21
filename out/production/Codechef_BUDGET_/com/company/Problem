@@ -1,0 +1,34 @@
+Problem
+Akshat has XX rupees to spend in the current month. His daily expenditure is YY rupees, i.e., he spends YY rupees each day.
+
+Given that the current month has 3030 days, find out if Akshat has enough money to meet his daily expenditures for this month.
+
+Input Format
+The first line will contain TT - the number of test cases. Then the test cases follow.
+The first and only line of each test case contains two integers XX, YY - the amount of money Akshat has for the current month and his daily expenditure respectively.
+Output Format
+For each test case, output YES if Akshat has enough money to meet his daily expenditure for 3030 days of the month, otherwise output NO.
+
+You may print each character of YES and NO in uppercase or lowercase (for example, yes, yEs, Yes will be considered identical).
+
+Constraints
+1 \leq T \leq 1001≤T≤100
+1 \leq X, Y \leq 10^51≤X,Y≤10
+5
+
+Sample 1:
+Input
+Output
+3
+1000 10
+250 50
+1500 50
+YES
+NO
+YES
+Explanation:
+Test Case 11: Akshat has 10001000 rupees and he wants to spend 30 \times 10 = 30030×10=300 rupees in the entire month. Therefore, he has enough money for the entire month.
+
+Test Case 22: Akshat has 250250 rupees and he wants to spend 30 \times 50 = 150030×50=1500 rupees in the entire month. Therefore, he does not have enough money for the entire month.
+
+Test Case 33: Akshat has 15001500 rupees and he wants to spend 30 \times 50 = 150030×50=1500 rupees in the entire month. Therefore, he has enough money for the entire month.
